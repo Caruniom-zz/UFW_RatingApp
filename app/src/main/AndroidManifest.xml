@@ -1,0 +1,39 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.htldornbirn.a3cwi.ufw_ratingapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="at.htldornbirn.a3cwi.ufw_ratingapp.Launcher"
+            android:label="@string/login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="at.htldornbirn.a3cwi.ufw_ratingapp.layouts.LayoutClasses"
+            android:label="@string/choose_class"
+            android:parentActivityName="at.htldornbirn.a3cwi.ufw_ratingapp.Launcher">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="at.htldornbirn.a3cwi.ufw_ratingapp.Launcher" />
+        </activity>
+        <activity
+            android:name="at.htldornbirn.a3cwi.ufw_ratingapp.layouts.LayoutStudents"
+            android:label="@string/choose_student"
+            android:parentActivityName="at.htldornbirn.a3cwi.ufw_ratingapp.Launcher">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="at.htldornbirn.a3cwi.ufw_ratingapp.Launcher" />
+        </activity>
+    </application>
+
+</manifest>

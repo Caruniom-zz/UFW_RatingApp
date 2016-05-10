@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bewertungapp</string>
+    <string name="login">Anmelden</string>
+    <string name="choose_class">Klasse auswählen</string>
+    <string name="choose_student">Schüler auswählen</string>
+    <string name="rate_student">Mitarbeit bewerten</string>
+    <string name="rating_history">Bisherige Eintragungen</string>
+    <string name="fsa">Klasse auswählen</string>
+</resources>
